@@ -24,7 +24,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 
 ## 배우는 중
 - 깃 (개선하려는 중)
-- rust (기초 넘으려는 중)
+- 러스트 (기초 넘으려는 중)
 
 ## 하고 싶음
 - shua-mint (한국어 위키 쓰는 중)
