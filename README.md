@@ -4,6 +4,8 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 ## things i'm learning
 - git (honing skills)
 - rust (going beyond the mere basics)
+- javascript (kill me now)
+- how not to die (kill me even more now)
 
 ## things i hope to work on
 - [shuamint](https://github.com/felix-aniver-see-saw/shuamint) (writing korean edition)
