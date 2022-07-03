@@ -1,4 +1,4 @@
-# [english] felixaniverseesaw
+# [english] shuu-wasseo
 hewwo :> i'm shua and currently a member of my school's infocomm club!
 
 ## things i'm learning
@@ -19,7 +19,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 - [@blackscreen1-dl](https://github.com/blackscreen1-dl)
 
 
-# [한국어] felixaniverseesaw
+# [한국어] 슈왔어
 안녕하세요 :> 슈와라고 합니다! 제가 학교의 코딩 동아리의 멤버입니다.
 
 ## 배우는 중
