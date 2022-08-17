@@ -7,7 +7,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 
 ## things i hope to work on
 - [shuamint](https://github.com/shuu-wasseo/shuamint) (writing korean edition)
-- loonascript (colorscript but loona)
+- [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
 
 ## my interests
 - math
@@ -28,7 +28,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 
 ## 하고 싶음
 - [shua-mint](https://github.com/shuu-wasseo/shuamint) (한국어 위키 쓰는 중)
-- loonascript (colorscript 이달의 소녀 에디션)
+- [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript 이달의 소녀 에디션)
 
 ## 관심
 - 수학
