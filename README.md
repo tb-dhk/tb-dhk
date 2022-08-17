@@ -1,3 +1,26 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+![Linux Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?style=for-the-badge&logo=Linux%20Mint&logoColor=white)
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+
+![](https://dcbadge.vercel.app/api/shield/876607304236163102)
+[![](https://dcbadge.vercel.app/api/server/DxUyrWjuxb)](https://discord.gg/DxUyrWjuxb)
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=shuu-wasseo.visitor-badge&left_text=MyPageVisitors)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=shuu-wasseo)](https://github.com/ryo-ma/github-profile-trophy)
+
+[![shua's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&show_icons=true&theme=tokyonights)](https://github.com/anuraghazra/github-readme-stats)
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=237qyl7a5nbwq5il7f8g0r0iu&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
+
 # [english] shuu-wasseo
 hewwo :> i'm shua and currently a member of my school's infocomm club!
 
