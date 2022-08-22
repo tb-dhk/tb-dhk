@@ -24,24 +24,24 @@
 hewwo :> i'm shua and currently a member of my school's infocomm club!
 
 ## my coding journey:
-2017: learnt scratch
-2018: got into micro:bits
-2019: learnt python and object-oriented programming
-2021: joined ec³, learnt the following:
-- c++ and basic competitive programming
-- html, css and js (basic web development)
-- picoctf challenges (cybersecurity)
-also self learned the following:
-- linux and ricing
-- bash
-2022: second year in ec³, learnt the following:
-- neural networks with python (machine learning)
-- vue.js (more web development)
-- dynamic programming and trees (intermediate competitive programmibg)
-- more picoctf challenges (cybersecurity)
-also self learned the following:
-- rust 
-- shell scripting
+- 2017: learnt scratch
+- 2018: got into micro:bits
+- 2019: learnt python and object-oriented programming
+- 2021: joined ec³, learnt the following:
+    - c++ and basic competitive programming
+    - html, css and js (basic web development)
+    - picoctf challenges (cybersecurity)
+- also self learned the following:
+    - linux and ricing
+    - bash
+- 2022: second year in ec³, learnt the following:
+  - neural networks with python (machine learning)
+  - vue.js (more web development)
+  - dynamic programming and trees (intermediate competitive programmibg)
+  - more picoctf challenges (cybersecurity)
+- also self learned the following:
+  - rust 
+  - shell scripting
 
 ## things i'm familiar with
 - see all badges near the top :)
