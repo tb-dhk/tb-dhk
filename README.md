@@ -5,6 +5,7 @@
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ![Linux Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?style=for-the-badge&logo=Linux%20Mint&logoColor=white)
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
@@ -15,8 +16,6 @@
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=shuu-wasseo.visitor-badge&left_text=MyPageVisitors)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=shuu-wasseo)](https://github.com/ryo-ma/github-profile-trophy)
-
 [![shua's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&show_icons=true&theme=tokyonights)](https://github.com/anuraghazra/github-readme-stats)
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=237qyl7a5nbwq5il7f8g0r0iu&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
@@ -24,8 +23,30 @@
 # [english] shuu-wasseo
 hewwo :> i'm shua and currently a member of my school's infocomm club!
 
+## my coding journey:
+2017: learnt scratch
+2018: got into micro:bits
+2019: learnt python and object-oriented programming
+2021: joined ec³, learnt the following:
+- c++ and basic competitive programming
+- html, css and js (basic web development)
+- picoctf challenges (cybersecurity)
+also self learned the following:
+- linux and ricing
+- bash
+2022: second year in ec³, learnt the following:
+- neural networks with python (machine learning)
+- vue.js (more web development)
+- dynamic programming and trees (intermediate competitive programmibg)
+- more picoctf challenges (cybersecurity)
+also self learned the following:
+- rust 
+- shell scripting
+
+## things i'm familiar with
+- see all badges near the top :)
+
 ## things i'm learning
-- git (honing skills)
 - rust (going beyond the mere basics)
 
 ## things i hope to work on
