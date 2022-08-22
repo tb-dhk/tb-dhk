@@ -42,23 +42,28 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 - also self learned the following:
   - rust 
   - shell scripting
+  
+## my outstanding projects
+- [4fours](https://github.com/shuu-wasseo/4fours) (pw2022 github repo)
+- [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
 
-## things i'm familiar with
+## current status:
+### things i'm familiar with
 - see all badges near the top :)
 
-## things i'm learning
+### things i'm learning
 - rust (going beyond the mere basics)
 
-## things i hope to work on
+### things i hope to work on
 - [shuamint](https://github.com/shuu-wasseo/shuamint) (writing korean edition)
 - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
 
-## my interests
+### my interests
 - math
 - music
-- languages (korean and japanese)
+- languages (korean)
 
-## my very good friends
+### my very good friends
 - [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c)
 - [@blackscreen1-dl](https://github.com/blackscreen1-dl)
 
