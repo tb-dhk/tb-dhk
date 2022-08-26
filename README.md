@@ -16,7 +16,9 @@
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=shuu-wasseo.visitor-badge&left_text=MyPageVisitors)
 
-[![shua's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![shua's stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+
+[shua's stats 2](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=nord_dark)
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=237qyl7a5nbwq5il7f8g0r0iu&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
