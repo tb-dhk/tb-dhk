@@ -61,6 +61,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 ### things i hope to work on
 - [shuamint](https://github.com/shuu-wasseo/shuamint) (writing korean edition)
 - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
+- minianki (anki session but in github)
 
 ### my interests
 - math
