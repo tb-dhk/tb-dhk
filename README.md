@@ -60,12 +60,12 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 - rust (going beyond the mere basics)
 
 ### things i hope to work on
+- [tictactoe](https://github.com/shuu-wasseo/tictactoe) (tictactoe in python, 95$)
 - [loona-themed projects](https://github.com/stars/shuu-wasseo/lists/loona)
-    - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
-    - [loonavim](https://github.com/shuu-wasseo/loonavim) (loona-themed lunarvim colorscheme)
-- [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python)
-- [tictactoe](https://github.com/shuu-wasseo/tictactoe) (tictactoe in python)
-- redo [fass](https://github.com/shuu-wasseo/fass)
+    - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona, 90%)
+    - [loonavim](https://github.com/shuu-wasseo/loonavim) (loona-themed lunarvim colorscheme, 10%)
+- [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python, 0%)
+- redo [fass](https://github.com/shuu-wasseo/fass, 0%)
 
 ### my interests
 - math
