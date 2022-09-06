@@ -64,6 +64,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
     - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
     - [loonavim](https://github.com/shuu-wasseo/loonavim) (loona-themed lunarvim colorscheme)
 - [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python)
+- [tictactoe](https://github.com/shuu-wasseo/tictactoe) (tictactoe in python)
 - redo [fass](https://github.com/shuu-wasseo/fass)
 
 ### my interests
