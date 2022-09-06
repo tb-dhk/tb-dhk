@@ -23,9 +23,7 @@
 
 ![shua's stats!](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shuu-wasseo&theme=tokyonight)
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=237qyl7a5nbwq5il7f8g0r0iu&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
-
-[![Top Langs](https://github-readme-stats-lunabunn.vercel.app/api/top-langs/?username=shuu-wasseo&exclude_repo=svg2font&theme=dark&layout=compact&count_private=true)](https://github.com/lunabunn)
+[![shua's top langs](https://github-readme-stats-lunabunn.vercel.app/api/top-langs/?username=shuu-wasseo&exclude_repo=svg2font&theme=dark&layout=compact&count_private=true)](https://github.com/lunabunn)
 
 # [english] shuu-wasseo
 hewwo :> i'm shua and currently a member of my school's infocomm club!
@@ -77,3 +75,5 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 ### my very good friends
 - [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c)
 - [@blackscreen1-dl](https://github.com/blackscreen1-dl)
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=237qyl7a5nbwq5il7f8g0r0iu&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
