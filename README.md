@@ -60,7 +60,9 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
 - rust (going beyond the mere basics)
 
 ### things i hope to work on
-- [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
+- [loona-themed projects](https://github.com/stars/shuu-wasseo/lists/loona)
+    - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
+    - [loonavim](https://github.com/shuu-wasseo/loonavim) (loona-themed lunarvim colorscheme)
 - [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python)
 - redo [fass](https://github.com/shuu-wasseo/fass)
 
