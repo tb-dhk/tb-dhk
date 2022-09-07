@@ -23,7 +23,7 @@
 
 ![shua's stats!](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shuu-wasseo&theme=tokyonight)
 
-[![shua's top langs](https://github-readme-stats-lunabunn.vercel.app/api/top-langs/?username=shuu-wasseo&exclude_repo=svg2font&theme=dark&layout=compact&count_private=true)](https://github.com/lunabunn)
+[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo)](https://github.com/anuraghazra/github-readme-stats)
 
 # [english] shuu-wasseo
 hewwo :> i'm shua and currently a member of my school's infocomm club!
