@@ -48,7 +48,7 @@ hewwo :> i'm shua and currently a member of my school's infocomm club!
   - rust 
   - shell scripting
   
-## my outstanding projects
+## my projects
 - [4fours](https://github.com/shuu-wasseo/4fours) (pw2022 github repo)
 - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
 
