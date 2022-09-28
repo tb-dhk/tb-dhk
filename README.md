@@ -25,7 +25,7 @@
 
 [![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo)](https://github.com/anuraghazra/github-readme-stats)
 
-# shuu-wasseo
+# welcome!
 _(pronounced /ɕu.wa.s͈ʌ/)_
 
 hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club!
