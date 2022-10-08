@@ -66,7 +66,7 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
 - [loona-themed projects](https://github.com/stars/shuu-wasseo/lists/loona)
     - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona, 90%)
     - [loona.nvim](https://github.com/shuu-wasseo/loona.nvim) (loona-themed nvim colorscheme, 10%)
-- [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python, 0%)
+- [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python, 25%)
 - redo [fass](https://github.com/shuu-wasseo/fass, 0%)
 
 ### my interests
