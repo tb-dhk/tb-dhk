@@ -44,7 +44,7 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
 - 2022: second year in ec³, learnt the following:
   - neural networks with python (machine learning)
   - vue.js (more web development)
-  - dynamic programming and trees (intermediate competitive programmibg)
+  - dynamic programming and trees (intermediate competitive programming)
   - more picoctf challenges (cybersecurity)
 - also self learned the following:
   - rust 
