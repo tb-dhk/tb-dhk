@@ -1,0 +1,518 @@
+/* Essential styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+	font-family: "Inter", sans-serif;
+}
+
+body{
+	--fontsize: 16px; 
+	background-color: var(--bgcolour); 
+	color: var(--nmltcolour);
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+	font-size: var(--fontsize); 
+  overflow-y: auto;
+  position: absolute;
+  background-image: url("https://github.com/shuu-wasseo/loonawallpapers/blob/main/solos/choerry/%EC%B5%9C%EB%A6%AC_%EB%9F%AC%EB%B8%8C%EC%B2%B4%EB%A6%AC%EB%AA%A8%EC%85%98.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#dark_mode{
+	--bgcolour: #1f2335; /* body background colour */
+	--tcolour: #2c3451; /* title colour */
+	--stcolour: #184681; /* subtitle colour */
+	--nmltcolour: white; /* normal text colour */
+	--nbgcolour: #2c3451; /* navigation bar background colour */
+	--nbicolour: #8556d7; /* navigation bar icon colour */
+	--sbccolour: #8556d7; /* search border colour */
+	--spccolour: #2c3451; /* search placeholder colour */
+	--sphcolour: #8556d7; /* search placeholder hover colour */
+	--tbhcolour: #8556d7; /* topnav button hover colour */
+	--tscolour: white; /* text selection colour */
+}
+
+#topnav{
+	position: fixed; 
+	width: 100%; 
+	height: 65px;
+	z-index: 2; 
+	text-align: center;
+	background-color: var(--nbgcolour); 
+	top: 0;
+	padding: 0px 12px; 
+	user-select: none; 
+  z-index: 1;
+}
+
+.opennav{
+	cursor: pointer;
+	padding: 0 8px; 
+	margin: 15px 2px; 
+	float: left; 
+	transition: 0.3s; 
+}
+
+#bar1, #bar2, #bar3{
+	width: 28px;
+	height: 3px;
+	border-radius: 2px; 
+	background-color: var(--nbicolour); 
+	margin: 6px 0;
+	transition: 0.3s;
+}
+
+.closenav{
+	padding-left: 10px; 
+}
+
+.closenav #bar1{
+  	transform: rotate(-45deg) translate(-8px, 4px);
+}
+
+.closenav #bar2{
+	opacity: 0; 
+}
+
+.closenav #bar3{
+  	transform: rotate(45deg) translate(-8px, -4px);
+}
+
+#name{
+	float: left; 
+	margin: 20px 10px; 
+	cursor: pointer; 
+	text-decoration: none; 
+	color: var(--nbobcolour);
+	font-size: 18px; 
+}
+
+#search{
+	width: 45vw; 
+	height: 41px; 
+	min-width: 50px; 
+	border: 2px solid var(--sbccolour); 
+	color: var(--nmltcolour); 
+	border-radius: 25px; 
+	outline: none; 
+	background-color: transparent;
+	padding: 0 18px; 
+	font-size: 16px; 
+	display: inline-block; 
+	margin: 10px; 
+	margin-right: 15px; 
+	transition: 0.3s; 
+}
+
+#search::placeholder{
+	color: var(--spccolour); 
+	transition: 0.8s; 
+}
+
+#search:hover{
+	width: calc(45vw + 20px); 
+	height: 45px; 
+	margin: 8px 0; 
+	margin-right: 15px; 
+	font-size: 18px; 
+}
+
+#search:hover::placeholder{
+	color: var(--sphcolour); 
+	font-size: 15px; 
+}
+
+.tbutton{
+	width: 25px; 
+	height: 25px; 
+	border-radius: 30px; 
+	padding: 10px; 
+	font-size: 20px; 
+	display: inline-block; 
+	margin: 0px 2px; 
+	text-align: center; 
+	cursor: pointer; 
+	transition: 0.3s; 
+}
+
+.tbutton:hover{
+	background-color: var(--tbhcolour); 
+}
+
+#lmbutton{
+	width: 20px;
+	height: 8px;
+	vertical-align: 2px; 
+	display: inline-block; 
+	border: 2px solid white; 
+	border-radius: 10px; 
+	transition: 0.3s; 
+}
+
+#lmbutton #dot{
+	width: 5px;
+	height: 5px;
+	border-radius: 3px;
+	margin-left: 2px;
+	margin-top: 1px;
+	background-color: white; 
+	transition: 0.3s; 
+}
+
+#dmbutton{
+	width: 22px;
+	height: 10px;
+	vertical-align: 2px; 
+	display: inline-block; 
+	background-color: black; 
+	border-radius: 10px; 
+	transition: 0.3s; 
+}
+
+#main{
+	width: 100vw;
+	height: calc(100vh - 65px);
+	margin-top: 65px;
+	overflow: auto; 
+}
+
+#sidenav{
+	width: 0;
+	height: calc(100vh - 65px);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: var(--nbgcolour);
+	overflow-x: hidden;
+	margin-top: 65px;
+	user-select: none; 
+	box-shadow: 5px -5px 5px var(--nbgcolour); 
+	transition: 0.3s;
+}
+
+#sidenav a{
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color: var(--nmltcolour); 
+	opacity: 0.7; 
+	font-size: 17px; 
+	padding: 10px 15px; 
+	overflow: hidden; 
+	transition: 0.3s; 
+}
+
+#nothing{
+	display: block;
+	color: var(--nmltcolour); 
+	opacity: 0.7; 
+	padding: 10px 15px; 
+	font-size: 15px; 
+}
+
+#sidenav .material-icons-round{
+	color: var(--nbicolour); 
+	vertical-align: -20%; 
+	transition: 0.3s; 
+}
+
+#sidenav a:hover{
+	opacity: 1;
+}
+
+#sidenav a:hover .material-icons-round{
+	transform: rotate(20deg); 
+}
+
+#text{
+	padding: 30px 50px; 
+	padding-bottom: 70px; 
+	width: calc(100% - 100px);
+	height: calc(100% - 100px); 
+	overflow: auto; 
+	transition: 0.3s; 
+}
+
+.title{
+	color: var(--tcolour); 
+	font-size: calc(var(--fontsize) + 32px); 
+	margin-top: 15px; 
+	margin-bottom: 10px; 
+	text-shadow: 2px 2px 5px var(--tcolour); 
+	transition: 0.3s; 
+}
+
+.sub-title{
+	color: var(--stcolour); 
+	font-size: calc(var(--fontsize) + 15px); 
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	text-shadow: 1px 1px 3px var(--stcolour); 
+  line-height: 1.5
+}
+
+.material-icons-round{
+	vertical-align: -14%; 
+}
+
+::-webkit-scrollbar{
+  	width: 10px;
+}
+
+::-webkit-scrollbar-track{
+	background: transparent; 
+}
+
+::-webkit-scrollbar-thumb{
+  	background: var(--tcolour); 
+  	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	opacity: 0.8; 
+}
+
+::selection{
+	background-color: var(--tcolour);
+	color: var(--tscolour);
+}
+
+@media only screen and (max-width: 700px){
+	#bar1, #bar2, #bar3{
+		width: 24px;
+		height: 2px;
+		border-radius: 2px; 
+	}
+
+	.closenav #bar1{
+		transform: rotate(-45deg) translate(-8px, 3px);
+	}
+
+	.closenav #bar3{
+		transform: rotate(45deg) translate(-8px, -3px);
+	}
+
+	#name{
+		display: none; 
+	}
+
+	#text{
+		padding: 10px 25px; 
+		padding-bottom: 30px; 
+		width: calc(100% - 40px); 
+		height: calc(100% - 40px); 
+	}
+}
+
+
+
+/* CSS styling for specific elements */
+
+.input{
+	position: relative; 
+	margin: 30px 0; 
+}
+
+input:not(#search){
+	outline: none;
+	width: 240px;
+	border-radius: 6px; 
+	background-color: transparent; 
+	color: var(--nmltcolour); 
+	border: 1px solid #888888; 
+	padding: 14px 10px; 
+	font-size: 14px; 
+	transition: 0.3s; 
+}
+
+.input label{
+	position: absolute;
+	left: 11px;
+	top: 13px; 
+	font-size: 16px; 
+	color: #777777; 
+	padding: 0 8px; 
+	background-color: var(--bgcolour); 
+	user-select: none; 
+	transition: 0.2s; 
+}
+
+input:focus:not(#search){
+	border: 2px solid var(--tcolour); 
+}
+
+button{
+	user-select: none; 
+}
+
+#dark_mode button{
+	position: relative;
+	color: var(--nmltcolour);
+	border: 2px solid var(--tcolour);
+	background-color: transparent; 
+	padding: 11px 32px;
+	font-size: 16px; 
+	outline: none;
+	border-radius: 6px;
+	margin: 30px 0; 
+	box-shadow: 0 0 10px var(--tcolour), 0 0 10px var(--tcolour) inset; 
+	overflow: auto;
+	cursor: pointer;
+	transition: background 400ms;
+}
+
+#dark_mode button:hover{
+	background-color: var(--tcolour); 
+	padding: 13px 34px;
+	border: 0;
+}
+
+#light_mode button{
+	position: relative;
+	outline: 0; 
+	border-radius: 6px; 
+	margin: 30px 0; 
+	box-shadow: 0 0 10px var(--stcolour), 0 0 5px var(--stcolour) inset; 
+	background-color: var(--stcolour); 
+	color: white; 
+	padding: 15px 35px;
+	font-size: 16px; 
+	border: 0;
+	overflow: auto;
+	cursor: pointer;
+	transition: background 400ms;
+}
+
+span.ripple{
+	position: absolute; 
+	border-radius: 50%; 
+	transform: scale(0); 
+	animation: ripple 500ms linear; 
+	background-color: white; 
+	opacity: 0.6; 
+}
+
+@keyframes ripple{
+	to{
+		transform: scale(4);
+		opacity: 0;
+	}
+}
+
+a{
+	color: var(--nmltcolour); 
+	transition: 0.3s; 
+}
+
+a:hover{
+	color: var(--stcolour); 
+	text-decoration: underline; 
+}
+
+@media screen {
+  /* Timeline Container */
+  .timeline {
+    background: var(--primary-color);
+    margin: 20px auto;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    max-width: 400px;
+  }
+  
+  /* setting padding based on even or odd */
+  .card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+  }
+  .card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+  }
+  /* Global ::before */
+  .card::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    border: solid var(--nbgcolour);
+  }
+  
+  /* Setting the border of top, bottom, left */
+  .card:nth-child(odd)::before {
+    left: 0px;
+    top: -4.5px;
+    bottom: -4.5px;
+    border-width: 5px 0 5px 5px;
+    border-radius: 50px 0 0 50px;
+  }
+  
+  /* Setting the border of top, bottom, right */
+  .card:nth-child(even)::before {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-width: 5px 5px 5px 0;
+    border-radius: 0 50px 50px 0;
+  }
+  
+  /* Removing the border if it is the first card */
+  .card:first-child::before {
+    border-top: 0;
+    border-top-left-radius: 0;
+  }
+  
+  /* Removing the border if it is the last card  and it's odd */
+  .card:last-child:nth-child(odd)::before {
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* Removing the border if it is the last card  and it's even */
+  .card:last-child:nth-child(even)::before {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    background: var(--nbgcolour);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Timeline dot  */
+  .ttitle::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--nbicolour);
+    border-radius: 999px;
+    border: 3px solid var(--nbgcolour);
+  }
+  
+  /* text right if the card is even  */
+  .card:nth-child(even) > .info > .ttitle {
+    text-align: right;
+  }
+  
+  /* setting dot to the left if the card is odd */
+  .card:nth-child(odd) > .info > .ttitle::before {
+    left: -5px;
+  }
+  
+  /* setting dot to the right if the card is odd */
+  .card:nth-child(even) > .info > .ttitle::before {
+    right: -5px;
+  }
+}
