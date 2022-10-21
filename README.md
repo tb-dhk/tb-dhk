@@ -25,6 +25,8 @@
 
 [![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo)](https://github.com/anuraghazra/github-readme-stats)
 
+website version [here](https://shuu-wasseo.github.io/shuu-wasseo/)
+
 # welcome!
 _(shuu-wasseo: pronounced /ɕu.wa.s͈ʌ/)_
 
