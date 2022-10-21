@@ -17,7 +17,7 @@ title: shuu-wasseo
 email: joshuasoh2008@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   welcome to shuu-wasseo!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/main" # the subpath of your site, e.g. /blog
 domain: shuu-wasseo.github.io
 url: "https://shuu-wasseo/github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
