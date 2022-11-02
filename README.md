@@ -21,9 +21,9 @@
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=shuu-wasseo.visitor-badge&left_text=MyPageVisitors)
 
-[![shuu-wasseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo)](https://github.com/shuu-wasseo/github-readme-stats)
+[![shuu-wasseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&theme=tokyonight)](https://github.com/shuu-wasseo/github-readme-stats)
 
-[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo)](https://github.com/anuraghazra/github-readme-stats)
+[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 website version [here](https://shuu-wasseo.github.io/shuu-wasseo/)
 
