@@ -51,6 +51,10 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
 - also self learned the following:
   - rust 
   - shell scripting
+  - toml
+  - json
+  - mdbook
+  - github actions
   
 ## my projects
 - [4fours](https://github.com/shuu-wasseo/4fours) (pw2022 github repo)
