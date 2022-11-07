@@ -23,7 +23,7 @@
 
 [![shuu-wasseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
-[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo&theme=tokyonight&langs_count=20)](https://github.com/anuraghazra/github-readme-stats)
 
 website version [here](https://shuu-wasseo.github.io/shuu-wasseo/)
 
