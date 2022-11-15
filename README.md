@@ -59,6 +59,12 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
 ## my projects
 - [4fours](https://github.com/shuu-wasseo/4fours) (pw2022 github repo)
 - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
+- the habitmap series:
+  - [habitmap cli](https://github.com/shuu-wasseo/habitmap/)
+  - [habitmap discord bot](https://github.com/shuu-wasseo/habitmap-bot/)
+- tripleS simulator:
+  - [tripleS simulator cli](https://github.com/shuu-wasseo/tripleS-simulator/)
+  - [tripleS simulator discord bot](https://github.com/shuu-wasseo/tripleS-simulator-bot/)
 
 ## current status:
 ### things i'm familiar with
@@ -66,14 +72,6 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
 
 ### things i'm learning
 - rust (going beyond the mere basics)
-
-### things i hope to work on
-- [tictactoe](https://github.com/shuu-wasseo/tictactoe) (tictactoe in python, 95%)
-- [loona-themed projects](https://github.com/stars/shuu-wasseo/lists/loona)
-    - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona, 90%)
-    - [loona.nvim](https://github.com/shuu-wasseo/loona.nvim) (loona-themed nvim colorscheme, 10%)
-- [minianki](https://github.com/shuu-wasseo/minianki) (anki session but in python, 25%)
-- redo [fass](https://github.com/shuu-wasseo/fass, 0%)
 
 ### my interests
 - math
