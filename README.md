@@ -58,7 +58,9 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
   
 ## my projects
 - [4fours](https://github.com/shuu-wasseo/4fours) (pw2022 github repo)
-- [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
+- shellscripts
+  - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
+  - tripleSSScripts (coming soon)
 - the habitmap series:
   - [habitmap cli](https://github.com/shuu-wasseo/habitmap/)
   - [habitmap discord bot](https://github.com/shuu-wasseo/habitmap-bot/)
