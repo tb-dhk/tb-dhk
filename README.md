@@ -30,7 +30,11 @@ website version [here](https://shuu-wasseo.github.io/shuu-wasseo/)
 # welcome!
 _(shuu-wasseo: pronounced /ɕu.wa.s͈ʌ/)_
 
-hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club!
+hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club (EC³)!
+
+## about me:
+- '08
+- EC³ python trainer
 
 ## my coding journey:
 - 2017: learnt scratch
@@ -73,19 +77,21 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
     - [see the docs here](https://shuu-wasseo.github.io/tripleS-info-bot-docs/)
 - untitled game bot (coming soon)
 
-## current status:
-### things i'm familiar with
-- see all badges near the top :)
-
-### things i'm learning
-- rust (going beyond the mere basics)
-
-### my interests
+## my interests
 - math
 - music
-- languages (korean)
+- languages
+  - english (native)
+  - mandarin (native)
+  - korean (intermediate)
+  - toki pona (beginner)
+  - vietnamese (beginner)
+- kpop
+  - loona
+  - onlyoneof
+  - tripleS
 
-### my very good friends
+## my very good friends
 - [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c)
 - [@blackscreen1-dl](https://github.com/blackscreen1-dl)
 
