@@ -25,7 +25,7 @@
 
 [![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo&theme=tokyonight&langs_count=20)](https://github.com/anuraghazra/github-readme-stats)
 
-website version [here](https://shuu-wasseo.github.io/shuu-wasseo/)
+[![trophy](https://github-profile-trophy.vercel.app/?username=shuu-wasseo)](https://github.com/ryo-ma/github-profile-trophy)
 
 # welcome!
 _(shuu-wasseo: pronounced /ɕu.wa.s͈ʌ/)_
