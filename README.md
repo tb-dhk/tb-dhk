@@ -17,7 +17,7 @@
 ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
 
 ![](https://dcbadge.vercel.app/api/shield/876607304236163102)
-[![](https://dcbadge.vercel.app/api/server/DxUyrWjuxb)](https://discord.gg/DxUyrWjuxb)
+[![](https://dcbadge.vercel.app/api/server/CZs6CkZZfd)](https://discord.gg/CZs6CkZZfd)
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=shuu-wasseo.visitor-badge&left_text=MyPageVisitors)
 
