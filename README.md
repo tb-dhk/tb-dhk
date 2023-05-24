@@ -75,7 +75,9 @@ hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's inf
   - [tripleSinfobot](https://github.com/shuu-wasseo/tripleS-info-bot/)
   - [tripleSinfobot docs](https://github.com/shuu-wasseo/tripleS-info-bot-docs/)
     - [see the docs here](https://shuu-wasseo.github.io/tripleS-info-bot-docs/)
-- untitled game bot (coming soon)
+- tripleSlyricbot
+- [mutAte](https://github.com/shuu-wasseo/mutAte)
+- generation.SSS
 
 ## my interests
 - math
