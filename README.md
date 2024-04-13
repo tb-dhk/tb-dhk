@@ -32,3 +32,5 @@ hi :3 i'm tbdhk (pronounced "shua", /ɕu.wa/ or /ɕwa/) and currently a member o
 i'm an aspiring musician from singapore but i also do programming on the side.
 
 this account is mostly just for me to do weird projects on. don't mind it
+
+**warning**: most of these projects use my old username, which may lead to some broken links. feel free to help me change the username from `shuu-wasse` to `tb-dhk`.
