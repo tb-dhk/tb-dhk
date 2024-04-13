@@ -26,73 +26,7 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=shuu-wasseo&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
 # welcome!
-_(shuu-wasseo: pronounced /ɕu.wa.s͈ʌ/)_
 
-hewwo :> i'm shua (/ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club (EC³)!
+hi :3 i'm tbdhk (pronounced "shua", /ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club (EC³)!
 
-## about me:
-- '08
-- EC³ python trainer
-
-## my coding journey:
-- 2017: learnt scratch
-- 2018: got into micro:bits
-- 2019: learnt python and object-oriented programming
-- 2021: joined ec³, learnt the following:
-    - c++ and basic competitive programming
-    - html, css and js (basic web development)
-    - picoctf challenges (cybersecurity)
-- also self learned the following:
-    - linux and ricing
-    - bash
-- 2022: second year in ec³, learnt the following:
-  - neural networks with python (machine learning)
-  - vue.js (more web development)
-  - dynamic programming and trees (intermediate competitive programming)
-  - more picoctf challenges (cybersecurity)
-- also self learned the following:
-  - rust 
-  - shell scripting
-  - toml
-  - json
-  - mdbook
-  - github actions
-  
-## my projects
-- [4fours](https://github.com/shuu-wasseo/4fours) (pw2022 github repo)
-- shellscripts
-  - [loonascripts](https://github.com/shuu-wasseo/loonascripts) (colorscript but loona)
-  - tripleSSScripts (coming soon)
-- the habitmap series:
-  - [habitmap cli](https://github.com/shuu-wasseo/habitmap/)
-  - [habitmap discord bot](https://github.com/shuu-wasseo/habitmap-bot/)
-- tripleS simulator:
-  - [tripleS simulator cli](https://github.com/shuu-wasseo/tripleS-simulator/)
-  - [tripleS simulator discord bot](https://github.com/shuu-wasseo/tripleS-simulator-bot/)
-- tripleSinfobot:
-  - [tripleSinfobot](https://github.com/shuu-wasseo/tripleS-info-bot/)
-  - [tripleSinfobot docs](https://github.com/shuu-wasseo/tripleS-info-bot-docs/)
-    - [see the docs here](https://shuu-wasseo.github.io/tripleS-info-bot-docs/)
-- tripleSlyricbot
-- [mutAte](https://github.com/shuu-wasseo/mutAte)
-- generation.SSS
-
-## my interests
-- math
-- music
-- languages
-  - english (native)
-  - mandarin (native)
-  - korean (intermediate)
-  - toki pona (beginner)
-  - vietnamese (beginner)
-- kpop
-  - loona
-  - onlyoneof
-  - tripleS
-
-## my very good friends
-- [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c)
-- [@blackscreen1-dl](https://github.com/blackscreen1-dl)
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=237qyl7a5nbwq5il7f8g0r0iu&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
+i'm an aspiring musician from singapore but i also do programming on the side.
