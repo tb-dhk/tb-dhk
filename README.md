@@ -17,8 +17,6 @@
 ![](https://dcbadge.vercel.app/api/shield/876607304236163102)
 [![](https://dcbadge.vercel.app/api/server/CZs6CkZZfd)](https://discord.gg/CZs6CkZZfd)
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=shuu-wasseo.visitor-badge&left_text=MyPageVisitors)
-
 [![shuu-wasseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 [![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo&theme=tokyonight&langs_count=20)](https://github.com/anuraghazra/github-readme-stats)
