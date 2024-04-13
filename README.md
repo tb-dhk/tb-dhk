@@ -27,7 +27,7 @@
 
 hi :3 i'm tbdhk (pronounced "shua", /ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club (EC³)!
 
-i'm an aspiring musician from singapore but i also do programming on the side.
+i'm an aspiring musician from singapore but i also do programming on the side. i hope to one day release an album!
 
 (this account is mostly just for me to do weird projects on. don't mind it)
 
