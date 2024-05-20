@@ -17,11 +17,11 @@
 ![](https://dcbadge.vercel.app/api/shield/876607304236163102)
 [![](https://dcbadge.vercel.app/api/server/CZs6CkZZfd)](https://discord.gg/CZs6CkZZfd)
 
-[![shuu-wasseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuu-wasseo&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![tb-dhk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tb-dhk&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
-[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=shuu-wasseo&theme=tokyonight&langs_count=20)](https://github.com/anuraghazra/github-readme-stats)
+[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=tb-dhk&theme=tokyonight&langs_count=20)](https://github.com/anuraghazra/github-readme-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=shuu-wasseo&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=tb-dhk&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
 # welcome!
 
@@ -37,4 +37,4 @@ i have a lot of weird interests:
 - math
 - idle games
 
-**warning**: most of these projects use my old username, which may lead to some broken links. feel free to help me change the username from `shuu-wasseo` to `tb-dhk`.
+**warning**: most of these projects use my old username, which may lead to some broken links. feel free to help me change the username from `tb-dhk` to `tb-dhk`.
