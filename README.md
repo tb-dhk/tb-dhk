@@ -36,5 +36,3 @@ i have a lot of weird interests:
 - programming
 - math
 - idle games
-
-**warning**: most of these projects use my old username, which may lead to some broken links. feel free to help me change the username from `tb-dhk` to `tb-dhk`.
