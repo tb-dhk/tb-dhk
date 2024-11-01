@@ -17,9 +17,11 @@
 ![](https://dcbadge.vercel.app/api/shield/876607304236163102)
 [![](https://dcbadge.vercel.app/api/server/CZs6CkZZfd)](https://discord.gg/CZs6CkZZfd)
 
-[![tb-dhk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tb-dhk&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+ [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=tb-dhk&theme=tokyonight&hide_border=true&border_radius=5)](https://git.io/streak-stats) 
 
-[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=tb-dhk&theme=tokyonight&langs_count=20)](https://github.com/anuraghazra/github-readme-stats)
+[![tb-dhk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tb-dhk&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+
+[![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=tb-dhk&theme=tokyonight&langs_count=20&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=tb-dhk&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
