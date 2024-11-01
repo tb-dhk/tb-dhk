@@ -33,9 +33,3 @@ hi :3 i'm tbdhk (pronounced "shua", /ɕu.wa/ or /ɕwa/) and currently a member o
 i'm an aspiring musician from singapore but i also do programming on the side. i hope to one day release an album!
 
 (this account is mostly just for me to do weird projects on. don't mind it)
-
-i have a lot of weird interests:
-- music (in multiple aspects)
-- programming
-- math
-- idle games
