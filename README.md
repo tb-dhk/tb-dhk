@@ -11,8 +11,10 @@
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 ![Linux Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?style=for-the-badge&logo=Linux%20Mint&logoColor=white)
+![SwayWM](https://img.shields.io/badge/sway-%23000000.svg?style=for-the-badge&logo=sway)
 
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![Obsidian](https://img.shields.io/badge/obsidian-%23000000.svg?style=for-the-badge&logo=obsidian&logoColor=white)
 
 ![](https://dcbadge.vercel.app/api/shield/876607304236163102)
 
