@@ -10,7 +10,7 @@
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-![Fedora](https://img.shields.io/badge/Fedora-87CF3E?style=for-the-badge&logo=Fedora&logoColor=white)
+![Fedora package](https://img.shields.io/badge/fedora-294172?style=for-the-badge&logo=fedora)
 ![Hyprland](https://img.shields.io/badge/Hyprland-%23000000.svg?style=for-the-badge&logo=hyprland)
 
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
