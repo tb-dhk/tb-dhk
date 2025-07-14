@@ -23,11 +23,3 @@
 [![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=tb-dhk&theme=tokyonight&langs_count=20&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=tb-dhk&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
-
-# welcome!
-
-hi :3 i'm tbdhk (pronounced "shua", /ɕu.wa/ or /ɕwa/) and currently a member of my school's infocomm club (EC³)!
-
-i'm an aspiring musician from singapore but i also do programming on the side. i hope to one day release an album!
-
-(this account is mostly just for me to do weird projects on. don't mind it)
