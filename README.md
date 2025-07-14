@@ -18,8 +18,6 @@
 
 ![](https://dcbadge.vercel.app/api/shield/876607304236163102)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=tb-dhk&theme=tokyonight&hide_border=true&border_radius=5)](https://git.io/streak-stats) 
-
 [![tb-dhk's GitHub stats](https://github-readme-stats.vercel.app/api?username=tb-dhk&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![shua's top langs!](https://github-readme-stats.vercel.app/api/top-langs/?username=tb-dhk&theme=tokyonight&langs_count=20&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
