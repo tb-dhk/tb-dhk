@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shuu-wasseo</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+</head>
+
+<body id="dark_mode">
+  <div id="topnav">
+    <div class="opennav" onclick="togglenav(this)">
+      <div id="bar1"></div>
+      <div id="bar2"></div>
+      <div id="bar3"></div>
+    </div>
+    <a id="name" href="https://website-template.211368e.repl.co">shuu-wasseo</a>
+    <input id="search" maxlength="100" placeholder="Search (click or press '/' to enter)">
+    <div class="tbutton"><span class="material-icons-round">event</span></div>
+    <div class="tbutton" onclick="togglefs()"><span id="fullscreen" class="material-icons-round">fullscreen</span></div>
+    <div class="tbutton"><span class="material-icons-round">settings</span></div>
+  </div>
+  <div id="main">
+    <div id="sidenav">
+      <a href="/shuu-wasseo/"><span class="material-icons-round">home</span> home</a>
+      <a href="/shuu-wasseo/github.html"><span class="material-icons-round">visibility</span> github</a>
+      <a href="/shuu-wasseo/journey.html"><span class="material-icons-round">visibility</span> my coding journey</a>
+      <div id="nothing"></div>
+    </div>
+
+    <div id="text">
+      <div class="title">my github projects</div>
+      <a class="sub-title" href=#minianki>minianki</a>
+      <ul>
+        <li><a href=#mnak-cli>minianki</a></li>
+        <li><a href=#mnak-tui>minianki-tui</a></li>
+      </ul>
+      <a class="sub-title" href=#loona>the loona series</a>
+      <ul>
+        <li><a href=#loonascripts>loonascripts</a></li>
+        <li><a href=#loona.nvim>loona.nvim</a></li>
+      </ul>
+      <a class="sub-title" href=#others>others</a>
+      <ul>
+        <li><a href=#4fours>4fours</a></li>
+        <li><a href=#shuu-wasseo>shuu-wasseo</a></li>
+      </ul>
+
+      <div class="title" id="loona">minianki</div>
+
+      <div class="sub-title" id="mnak-cli">minianki (main cli version)</div>
+      <strong>latest version: v1.2</strong>
+      <div>a command-line version of anki. has most features of anki at the moment. </div>
+      <a href="https://github.com/shuu-wasseo/minianki"><button>visit minianki</button></a>
+
+      <div class="sub-title" id="mnak-tui">minianki (tui fork version)</div>
+      <strong>completion: 0% (to be started on after minianki v2.0)</strong>
+      <div>a tui version of anki.</div>
+
+      <div class="title" id="loona">the loona series</div>
+
+      <div class="sub-title" id="loonascripts">loonascripts</div>
+      <strong>completion: 90% (testing)</strong>
+      <div>very simply put, this is a complilation of colored ASCII art with the LOOΠΔ members' respective colors on
+        them. more specifically, this is a LOOΠΔ-themed adaptation of the original shell-color-scripts, made by Derek
+        Taylor on GitLab. the colors were retrieved from a <a
+          href="https://docs.google.com/spreadsheets/d/101dgHkOonpbhIw5LFUObFS-SRo2d85WkCex4NtjW6Lg/edit?usp=sharing">LOOΠΔ
+          member color database</a>.</div>
+      <a href="https://github.com/shuu-wasseo/loonascripts"><button>visit loonascripts</button></a>
+
+      <div class="sub-title" id="loona.nvim">loona.nvim</div>
+      <strong>completion: 10% (still in developmentr)</strong>
+      <div>a LunarVim colorscheme based on the LOOΠΔ members' respective colors, retrieved from a <a
+          href="https://docs.google.com/spreadsheets/d/101dgHkOonpbhIw5LFUObFS-SRo2d85WkCex4NtjW6Lg/edit?usp=sharing">LOOΠΔ
+          member color database</a>.</div>
+      <a href="https://github.com/shuu-wasseo/loona.nvim/"><button>visit loona.nvim</button></a>
+
+      <div class="title" id="loona">others</div>
+
+      <div class="sub-title" id="4fours">4fours</div>
+      <strong>completion: 100%</strong>
+      <div>this is a GitHub repo containing the programs used for my project work group in 2022's mathematical
+        calculations. all of these programs have been adopted from code by user Radcliffe, specifically four-fours.py.
+        note that in all of the code outside functions works() and partition(), all of the code was written by me.</div>
+      <br>
+      <div>due to my proficiency with Python, i was able to use it to iterate through many different combinations of the
+        operators and numbers given quickly and efficiently. this code was written to provide more convenience in our
+        mass calculations as iterating through all possible permutations of operations and integers is not viable and
+        would be extremely cumbersome and time-consuming. this repository contains python programs that greatly sped up
+        our data collection to find patterns.</div>
+      <a href="https://github.com/shuu-wasseo/4fours"><button>visit 4fours</button></a>
+
+      <div class="sub-title" id="loona.nvim">shuu-wasseo</div>
+      <strong>completion: 50% (still in development)</strong>
+      <div>the very thing you are reading right now. a website version of my GitHub profile.</div>
+      <a href="https://github.com/shuu-wasseo/loona.nvim/"><button>visit loona.nvim</button></a>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
