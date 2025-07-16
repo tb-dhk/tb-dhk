@@ -1,0 +1,62 @@
+[debug] [2025-07-16T00:09:04.255Z] ----------------------------------------------------------------------
+[debug] [2025-07-16T00:09:04.257Z] Command:       /usr/bin/node-22 /usr/local/bin/firebase deploy
+[debug] [2025-07-16T00:09:04.257Z] CLI Version:   14.10.1
+[debug] [2025-07-16T00:09:04.258Z] Platform:      linux
+[debug] [2025-07-16T00:09:04.258Z] Node Version:  v22.16.0
+[debug] [2025-07-16T00:09:04.258Z] Time:          Wed Jul 16 2025 08:09:04 GMT+0800 (Singapore Standard Time)
+[debug] [2025-07-16T00:09:04.258Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-16T00:09:04.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-16T00:09:04.405Z] > authorizing via signed-in user (shua@tbdhk.xyz)
+[debug] [2025-07-16T00:09:04.405Z] [iam] checking project tbdhk-eedec for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-07-16T00:09:04.406Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:04.406Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:04.407Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tbdhk-eedec:testIamPermissions [none]
+[debug] [2025-07-16T00:09:04.407Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tbdhk-eedec:testIamPermissions x-goog-quota-user=projects/tbdhk-eedec
+[debug] [2025-07-16T00:09:04.407Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tbdhk-eedec:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-16T00:09:05.647Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tbdhk-eedec:testIamPermissions 200
+[debug] [2025-07-16T00:09:05.648Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tbdhk-eedec:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-16T00:09:05.649Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:05.649Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:05.649Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tbdhk-eedec [none]
+[debug] [2025-07-16T00:09:06.315Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tbdhk-eedec 200
+[debug] [2025-07-16T00:09:06.316Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tbdhk-eedec {"projectId":"tbdhk-eedec","projectNumber":"76469741902","displayName":"tbdhk","name":"projects/tbdhk-eedec","resources":{"hostingSite":"tbdhk-eedec"},"state":"ACTIVE","etag":"1_da9d16b1-a407-4a47-be9a-1ea899504b4e"}
+[info] 
+[info] === Deploying to 'tbdhk-eedec'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-07-16T00:09:06.322Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:06.322Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:06.322Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/tbdhk-eedec/versions [none]
+[debug] [2025-07-16T00:09:06.322Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/tbdhk-eedec/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2025-07-16T00:09:07.289Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/tbdhk-eedec/versions 200
+[debug] [2025-07-16T00:09:07.289Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/tbdhk-eedec/versions {"name":"projects/76469741902/sites/tbdhk-eedec/versions/26d8ad06436387ff","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[tbdhk-eedec]: beginning deploy... 
+[info] i  hosting[tbdhk-eedec]: found 19 files in build 
+[debug] [2025-07-16T00:09:07.312Z] [hosting] uploading with 200 concurrency
+[debug] [2025-07-16T00:09:07.402Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.402Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.403Z] [hosting] hash cache [YnVpbGQ] stored for 19 files
+[debug] [2025-07-16T00:09:07.403Z] [hosting][hash queue][FINAL] {"max":83,"min":15,"avg":29.526315789473685,"active":0,"complete":19,"success":19,"errored":0,"retried":0,"total":19,"elapsed":88}
+[debug] [2025-07-16T00:09:07.404Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/76469741902/sites/tbdhk-eedec/versions/26d8ad06436387ff:populateFiles [none]
+[debug] [2025-07-16T00:09:07.404Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/76469741902/sites/tbdhk-eedec/versions/26d8ad06436387ff:populateFiles {"files":{"/robots.txt":"2544ca049f223a42bff01f72ad930a5edba75bbb7199d0f8430a02ff5aca16ec","/manifest.json":"0958a5e0c831126100c8c2d06a6bbaa665a3900f21aaff4130238a6f5a113aa1","/logo192.png":"18e686e60c635927db6ab6f6ba24828621e427c2b4d034a5cdb443d1f31b3ea7","/index.html":"d702ee97e15a18c1aabe7d8bc8e51f8f99ec0fd2f387529a83964677711dd3f9","/asset-manifest.json":"1f6eeae2e925a7f3adf0df329b5a9ff3cdcafe57fadb9e7e8dec64199c05993b","/favicon.ico":"c599b7a91ab3627e3538125d9f40adc2d4bf949046984262670545dc7738af06","/logo512.png":"7779210d56c1f3741e2e487799fe3092def4fa6ac450a60532b807c3a8971205","/static/js/main.73b81dc0.js.LICENSE.txt":"14342c562c2444915b128ef5d11b5d8b15b361de758d9981caaf94474afcbae9","/static/js/453.ecf5c388.chunk.js.map":"187d6dedb86936a13b0c3777559919a681b90bd4c0bd48eeb2e3fdf6aeb149c2","/static/css/main.50cd8351.css.map":"d57ea10abc85657398067231239d6469ecb8e8d873a5ad6042c65c13dc746de5","/static/js/453.ecf5c388.chunk.js":"f66bdd60c0e5e305824e948208a1a7f367c9e8f96ef20d0122a7d3598cfe395f","/static/css/main.50cd8351.css":"0a649ab36b4af02c3b44fd2dc6f1163642c40d0b7ff692b00189fe9b104387d2","/pfp.jpg":"8f21c0294f3e14e841329b02d09de1abeaa05bb7fddc0bd7cb218f47c505dba2","/static/js/main.73b81dc0.js":"d28e07e86b733c9042f10f31ac507fced758e35e7cb232e0fd1853b239724482","/static/media/nasin-leko-suwi.e7010e02261462e9d16d.ttf":"96448285c76d8b75b6e1dfd576383f7e25e2eb07befd127030a4b7f63bdf9b18","/nasin-leko-suwi.ttf":"96448285c76d8b75b6e1dfd576383f7e25e2eb07befd127030a4b7f63bdf9b18","/CozetteVector.ttf":"f44040c5d0a07e67018eb1c8840b3cf51efe4f526ade6432cf71d57df740d141","/static/media/CozetteVector.ca2b84567970f2ec7fd0.ttf":"f44040c5d0a07e67018eb1c8840b3cf51efe4f526ade6432cf71d57df740d141","/static/js/main.73b81dc0.js.map":"8ecf43fc2417b633763784da45a289a57709ce2030bd899391de6f1902dd659a"}}
+[debug] [2025-07-16T00:09:07.826Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/76469741902/sites/tbdhk-eedec/versions/26d8ad06436387ff:populateFiles 200
+[debug] [2025-07-16T00:09:07.826Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/76469741902/sites/tbdhk-eedec/versions/26d8ad06436387ff:populateFiles {"uploadRequiredHashes":["d702ee97e15a18c1aabe7d8bc8e51f8f99ec0fd2f387529a83964677711dd3f9","8ecf43fc2417b633763784da45a289a57709ce2030bd899391de6f1902dd659a","d28e07e86b733c9042f10f31ac507fced758e35e7cb232e0fd1853b239724482","1f6eeae2e925a7f3adf0df329b5a9ff3cdcafe57fadb9e7e8dec64199c05993b"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files"}
+[debug] [2025-07-16T00:09:07.827Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.827Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] Checked if tokens are valid: true, expires at: 1752626886977
+[debug] [2025-07-16T00:09:07.828Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/d702ee97e15a18c1aabe7d8bc8e51f8f99ec0fd2f387529a83964677711dd3f9 [none]
+[debug] [2025-07-16T00:09:07.828Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/d702ee97e15a18c1aabe7d8bc8e51f8f99ec0fd2f387529a83964677711dd3f9 [stream]
+[debug] [2025-07-16T00:09:07.830Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/8ecf43fc2417b633763784da45a289a57709ce2030bd899391de6f1902dd659a [none]
+[debug] [2025-07-16T00:09:07.830Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/8ecf43fc2417b633763784da45a289a57709ce2030bd899391de6f1902dd659a [stream]
+[debug] [2025-07-16T00:09:07.832Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/d28e07e86b733c9042f10f31ac507fced758e35e7cb232e0fd1853b239724482 [none]
+[debug] [2025-07-16T00:09:07.832Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/d28e07e86b733c9042f10f31ac507fced758e35e7cb232e0fd1853b239724482 [stream]
+[debug] [2025-07-16T00:09:07.833Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/1f6eeae2e925a7f3adf0df329b5a9ff3cdcafe57fadb9e7e8dec64199c05993b [none]
+[debug] [2025-07-16T00:09:07.833Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tbdhk-eedec/versions/26d8ad06436387ff/files/1f6eeae2e925a7f3adf0df329b5a9ff3cdcafe57fadb9e7e8dec64199c05993b [stream]
+[debug] [2025-07-16T00:09:07.834Z] [hosting][populate queue][FINAL] {"max":426,"min":426,"avg":426,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":432}
+[debug] [2025-07-16T00:09:07.834Z] [hosting] uploads queued: 4

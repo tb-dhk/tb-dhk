@@ -38,7 +38,7 @@ export const resources = {
         { domain: "wakalito", description: "󱥄󱤖󱦕󱥡󱤉󱤿󱥠󱦐󱦗󱥴󱦜󱤖󱦜󱤧󱦜󱥭󱦜󱦑" }
       ],
       talk: "󱥄󱥬󱥩󱤴󱤙󱥬",
-      language: timePassed => wordFromSecond(["󱦐󱤌󱥁󱤧󱤍󱦑", "󱦐󱥕󱦜󱥭󱦜󱦆󱥴󱦜󱦑", "󱦐󱤀󱦆󱦈󱦝󱦑", "󱥔"], timePassed, 4000, SITELEN_PONA),
+      language: timePassed => wordFromSecond(["󱦐󱤌󱥁󱤧󱤍󱦑", "󱦐󱥕󱦜󱥭󱦜󱦆󱥴󱦜󱦑", "󱦐󱤀󱦆󱦈󱦝󱦑", "󱥔"], timePassed, 6000, SITELEN_PONA),
       tabs: ["󱥇", "󱥄󱤖󱥡󱤉󱤴", "󱤪󱤴", "󱤿󱥠󱦐󱦗󱥴󱦜󱤖󱦜󱤧󱦜󱥭󱦜󱦑", "󱥄󱥬󱥩󱤴"],
       sitelangs: ["󱥬󱦐󱤌󱥁󱤧󱤍󱦑", "󱥬󱦕󱥔"]
     }
