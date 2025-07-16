@@ -79,9 +79,8 @@ export function wordFromSecond(words, second, cycleLength, string = BASE36_CHARS
 }
 
 export function oneTimeWordFromSecond([oldStr, newStr], second, cycleLength, string=BASE36_CHARS) {
-  if (!oldStr) {
-    return newStr
-  }
+  oldStr = oldStr || " "
+  newStr = newStr || " "
   const progress = Math.min(second / cycleLength, 1) // clamp at 1.0
   const old = stringToInt(oldStr, string)
   const next = stringToInt(newStr, string)

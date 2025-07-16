@@ -14,6 +14,7 @@
 
 html {
   font-size: 25px;
+  overflow: hidden
 }
 
 body {
@@ -137,6 +138,7 @@ body {
 .navbar > div {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .navbar > div > div, .url, #page-up, #page-down, .icon-tray > svg {
@@ -153,16 +155,23 @@ body {
   width: auto
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
+  .language {
+    display: none
+  }
+}
+
+@media (max-width: 999px) {
   /* applies when the screen is 768px or narrower */
-  .pages {
+  .language {
+    font-size: 30px
+  }
+  .pages, .settings {
     display: none !important
   }
-  .settings {
-    font-size: clamp(20px, 3dvw) !important
-  }
   .navbar {
-    width: 100%
+    width: 100%;
+    height: unset;
   }
 }
 

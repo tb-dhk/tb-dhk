@@ -18,18 +18,18 @@ function Glow(props) {
   return <span className="glow-text">{props.content}</span>
 }
 
-function pageUp(x, unit) {
-  const floored = Math.floor(x / unit)
-  return (x / unit) - floored < 0.25 ? (floored - 1) * unit : floored * unit
-}
-
-function pageDown(x, unit) {
-  const ceiled = Math.ceil(x / unit)
-  return ceiled - (x / unit) < 0.25 ? (ceiled + 1) * unit : ceiled * unit
-}
-
 function clamp(num, lower, upper) {
   return Math.min(Math.max(num, lower), upper)
+}
+
+function pageUp(x, unit, min, max) {
+  const floored = Math.floor(x / unit)
+  return clamp((x / unit) - floored < 0.25 ? (floored - 1) : floored, min, max) * unit
+}
+
+function pageDown(x, unit, min, max) {
+  const ceiled = Math.ceil(x / unit)
+  return clamp(ceiled - (x / unit) < 0.25 ? (ceiled + 1) : ceiled, min, max) * unit
 }
 
 function insertGlow(text, glowWords) {
@@ -50,28 +50,62 @@ function App() {
   const [language, setLanguage] = useState("en")
   const [startTime, setStartTime] = useState(null);
   const [timePassed, setTimePassed] = useState(0);
+  const [scrolled, setScrolled] = useState(Math.round(window.scrollY / height()))
   const [domainStartTime, setDomainStartTime] = useState(Date.now());
-  const [subdomains, setSubdomains] = useState([null, "matrix"])
-  const [scrolled, setScrolled] = useState(0)
+  const [subdomains, setSubdomains] = useState([null, null])
+  const [lastY, setLastY] = useState(null)
 
   const languages = ["en", "tp"] 
-
-  const scrollTimeout = useRef(null)
-  
+  const isAnimating = useRef(false)
+ 
   i18next.init({
     lng: language,
     resources: resources,
     returnObjects: true
   })
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
+
   const pages = i18next.t("tabs")
 
-  useEffect(() => {
+  const scrollByPage = (direction) => {
+    const prevScrolled = Math.round(window.scrollY / height())
+    const change = direction === "down" ? 1 : -1
+    const index = prevScrolled + change - 2
+    setSubdomains(prevSubdomains => {
+      let next = null
+      if (index >= 0 && index <= i18next.t("subdomains").length - 1) {
+        next = i18next.t("subdomains")[clamp(index, 0, i18next.t("subdomains").length - 1)].domain
+      }
+      if (prevSubdomains[1] !== next) {
+        return [prevSubdomains[1], next]
+      }
+      return prevSubdomains
+    })
+    setDomainStartTime(Date.now())
+
+    const pageHeight = height() // or window.innerHeight
+    const currentPos = window.scrollY
+    const targetPos = direction === 'down' 
+      ? pageDown(currentPos, pageHeight, 0, i18next.t("subdomains").length + 2) 
+      : pageUp(currentPos, pageHeight, 0, i18next.t("subdomains").length + 2)
+
+    window.scrollTo({ top: targetPos, behavior: 'smooth' })
+
+    // estimate scroll end after 500ms or use scroll event listeners for better control
+    setTimeout(() => {
+      isAnimating.current = false
+    }, 600)
+  }
+
+  useEffect(() => { 
     const handleKeyDown = (e) => {
       if (e.key === 'ArrowDown') {
-        window.scrollTo({ top: pageDown(window.scrollY, height()), behavior: 'smooth' })
+        scrollByPage("down")
       } else if (e.key === 'ArrowUp') {
-        window.scrollTo({ top: pageUp(window.scrollY, height()), behavior: 'smooth' })
+        scrollByPage("up")
       }
     }
 
@@ -86,43 +120,44 @@ function App() {
 
     const intervalId = setInterval(() => {
       setTimePassed(Date.now() - startTime);
+      setScrolled(Math.round(window.scrollY / height()))
     }, 16) // roughly 60fps update
 
     return () => clearInterval(intervalId);
   }, [startTime]);
 
   useEffect(() => {
-    if (scrollTimeout.current) {
-      clearTimeout(scrollTimeout.current)
-    }
-
-    const onScroll = () => {
-      const scrollVh = window.scrollY / height()
-      const newVal = Math.round(scrollVh)
-
-      // only proceed if the scroll target changed
-      if (scrolled !== newVal) {
-        setScrolled(newVal)
-        setDomainStartTime(Date.now())
-
-        setSubdomains(prev => {
-          const next = i18next.t("subdomains")[clamp(newVal - 2, 0, i18next.t("subdomains").length - 1)].domain
-          if (prev[1] !== next) {
-            return [prev[1], next]
-          } else {
-            return prev 
-          }
-        })
+    const onWheel = (e) => {
+      e.preventDefault()
+      if (e.deltaY > 0) {
+        scrollByPage('down')
+      } else if (e.deltaY < 0) {
+        scrollByPage('up')
       }
     }
 
-    scrollTimeout.current = setTimeout(() => {
-      window.scrollTo({ top: Math.round(window.scrollY / height()) * height(), behavior: 'smooth' })
-    }, 100) 
+    function onTouchMove(e) {
+      const currentY = e.touches[0].clientY;
+      if (lastY !== null) {
+        const deltaY = currentY - lastY;
+        if (deltaY > 0) {
+          scrollByPage('down')
+        } else if (deltaY < 0) {
+          scrollByPage('up')
+        }
+      }
+      setLastY(currentY)
 
-    window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [scrolled])
+    }
+
+    window.addEventListener('wheel', onWheel, { passive: false })
+    window.addEventListener('touchmove', onTouchMove, { passive: false })
+
+    return () => {
+      window.removeEventListener('wheel', onWheel)
+      document.body.style.overflow = '' // reset on unmount
+    }
+  }, [lastY])
 
   return (
     <div className="main">
@@ -145,6 +180,9 @@ function App() {
             >{i}</div>
           ))}
         </div>
+        <div className="language" onClick={() => {setLanguage(prev => languages[(languages.indexOf(prev) + 1) % languages.length])}}>
+          {i18next.t("sitelangs")[languages.indexOf(language)]}
+        </div>
       </div>
       <div className="page">
         <div className="header">{i18next.t("greeting")[0]}<Glow content={i18next.t("name")(timePassed)} />{i18next.t("greeting")[1]}</div>
@@ -156,10 +194,10 @@ function App() {
           {i18next.t("about").map(i => <p>{insertGlow(...i)}</p>)}
         </div>
       </div>
-      <div className="scroll" style={{height: (100 * subdomains.length) + "vh"}}>
+      <div className="scroll" style={{height: (100 * i18next.t("subdomains").length) + "vh"}}>
         <div className="sticky subdomain">
           <div className="header url" onClick={() => window.open("https://" + i18next.t("subdomains")[clamp(scrolled - 2, 0, i18next.t("subdomains").length - 1)].domain + ".tbdhk.xyz")}>
-            <Glow content={`${oneTimeWordFromSecond(subdomains, Date.now() - domainStartTime, 250)}.tbdhk.xyz`} />
+            <Glow content={`${oneTimeWordFromSecond(subdomains, Date.now() - domainStartTime, 500)}.tbdhk.xyz`} />
           </div>
           <div>{i18next.t("subdomains")[clamp(scrolled - 2, 0, i18next.t("subdomains").length - 1)].description}</div>
         </div>
@@ -167,18 +205,14 @@ function App() {
       <div 
         className="button"
         id="page-up"
-        onClick={() => {
-          window.scrollTo({ top: pageUp(window.scrollY, height()), behavior: 'smooth' })
-        }}
+        onClick={() => scrollByPage("up")}
       >
-        {scrolled ? <Icon icon="oui:arrow-up" /> : null}
+      {scrolled ? <Icon icon="oui:arrow-up" /> : null}
       </div>
       <div 
         className="button"
         id="page-down"
-        onClick={() => {
-          window.scrollTo({ top: pageDown(window.scrollY, height()), behavior: 'smooth' })
-        }}
+        onClick={() => scrollByPage("down")}
       >
       {scrolled < 2 + i18next.t("subdomains").length ? <Icon icon="oui:arrow-down" /> : null}
       </div>
@@ -190,6 +224,7 @@ function App() {
           <Icon icon={instagramIcon} onClick={() => window.open("https://www.instagram.com/tbdhk_/")} />
         </div>
       </div>
+      <div className="page"></div>
     </div>
   );
 }
