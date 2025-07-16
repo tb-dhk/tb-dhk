@@ -157,7 +157,7 @@ body {
 
 @media (min-width: 1000px) {
   .language {
-    display: none
+    display: none !important
   }
 }
 
