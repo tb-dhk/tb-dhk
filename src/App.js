@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import i18next from 'i18next'
 
 import { Icon } from '@iconify/react'
@@ -56,7 +56,7 @@ function App() {
 
   const languages = ["en", "tp"] 
 
-  let scrollTimeout = null
+  const scrollTimeout = useRef(null)
   
   i18next.init({
     lng: language,
@@ -92,8 +92,8 @@ function App() {
   }, [startTime]);
 
   useEffect(() => {
-    if (scrollTimeout) {
-      clearTimeout(scrollTimeout)
+    if (scrollTimeout.current) {
+      clearTimeout(scrollTimeout.current)
     }
 
     const onScroll = () => {
@@ -116,7 +116,7 @@ function App() {
       }
     }
 
-    scrollTimeout = setTimeout(() => {
+    scrollTimeout.current = setTimeout(() => {
       window.scrollTo({ top: Math.round(window.scrollY / height()) * height(), behavior: 'smooth' })
     }, 100) 
 
