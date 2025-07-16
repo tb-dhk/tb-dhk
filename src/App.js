@@ -227,14 +227,14 @@ function App() {
           <link rel="stylesheet" href="https://sike.pona.la/embed.css"/>
           <span id="left">
             <a href="https://sike.pona.la/jan/jan suwa/prev.html" id="prev">← {i18next.t("sikepona")[0]}</a>
-            </span>
+          </span>
           <span id="mid"><a href="https://sike.pona.la">
             <img class="tokipona" src="https://sike.pona.la/assets/tokipona.svg" alt="toki pona"></img>
             {i18next.t("sikepona")[1]} 
             <img class="tokipona" src="https://sike.pona.la/assets/tokipona.svg" alt="toki pona"></img>
           </a></span>
           <span id="right">
-          <a href="https://sike.pona.la/jan/jan suwa/next.html" id="next">{i18next.t("sikepona")[2]} →</a>
+            <a href="https://sike.pona.la/jan/jan suwa/next.html" id="next">{i18next.t("sikepona")[2]} →</a>
           </span>
         </div>
       </div>
