@@ -24,7 +24,7 @@ body {
 
 * {
   color: white;
-  font-family: CozetteVector, nasin leko suwi
+  font-family: CozetteVector, nasin leko suwi !important
 }
 
 .main, .page {
@@ -47,6 +47,7 @@ body {
   padding: 20px;
   margin: 0;
   box-sizing: border-box;
+  width: 80%
 }
 
 .header {

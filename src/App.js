@@ -223,6 +223,20 @@ function App() {
           <Icon icon={discordIcon} onClick={() => window.open("https://discord.com/users/876607304236163102")} />
           <Icon icon={instagramIcon} onClick={() => window.open("https://www.instagram.com/tbdhk_/")} />
         </div>
+        <div id="sike-pona" style={{width: "100%", height: "3rem"}}>
+          <link rel="stylesheet" href="https://sike.pona.la/embed.css"/>
+          <span id="left">
+            <a href="https://sike.pona.la/jan/NIMI_SINA/prev.html" id="prev">← {i18next.t("sikepona")[0]}</a>
+            </span>
+          <span id="mid"><a href="https://sike.pona.la">
+            <img class="tokipona" src="https://sike.pona.la/assets/tokipona.svg" alt="toki pona"></img>
+            {i18next.t("sikepona")[1]} 
+            <img class="tokipona" src="https://sike.pona.la/assets/tokipona.svg" alt="toki pona"></img>
+          </a></span>
+          <span id="right">
+          <a href="https://sike.pona.la/jan/NIMI_SINA/next.html" id="next">{i18next.t("sikepona")[2]} →</a>
+          </span>
+        </div>
       </div>
       <div className="page"></div>
     </div>

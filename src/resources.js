@@ -19,7 +19,8 @@ export const resources = {
       talk: "talk to me in ",
       language: timePassed => wordFromSecond(["english", "mandarin", "korean", "toki pona"], timePassed, 4000),
       tabs: ["home", "about me", "matrix", "wakalito", "contact"],
-      sitelangs: ["english", "toki pona"]
+      sitelangs: ["english", "toki pona"],
+      sikepona: ["prev", "sike pona", "next"]
     }
   },
   tp: {
@@ -40,7 +41,8 @@ export const resources = {
       talk: "󱥄󱥬󱥩󱤴󱤙󱥬",
       language: timePassed => wordFromSecond(["󱦐󱤌󱥁󱤧󱤍󱦑", "󱦐󱥕󱦜󱥭󱦜󱦆󱥴󱦜󱦑", "󱦐󱤀󱦆󱦈󱦝󱦑", "󱥔"], timePassed, 6000, SITELEN_PONA),
       tabs: ["󱥇", "󱥄󱤖󱥡󱤉󱤴", "󱤪󱤴", "󱤿󱥠󱦐󱦗󱥴󱦜󱤖󱦜󱤧󱦜󱥭󱦜󱦑", "󱥄󱥬󱥩󱤴"],
-      sitelangs: ["󱥬󱦐󱤌󱥁󱤧󱤍󱦑", "󱥬󱦕󱥔"]
+      sitelangs: ["󱥬󱦐󱤌󱥁󱤧󱤍󱦑", "󱥬󱦕󱥔"],
+      sikepona: ["󱥒", "󱥜󱥔", "󱥒"]
     }
   }
 }
