@@ -3,9 +3,6 @@ import { useState, useEffect, useRef } from 'react'
 import i18next from 'i18next'
 
 import { Icon } from '@iconify/react'
-import githubIcon from '@iconify/icons-fa-brands/github'
-import discordIcon from '@iconify/icons-fa-brands/discord'
-import instagramIcon from '@iconify/icons-fa-brands/instagram'
 
 import { resources } from './resources.js'
 import { oneTimeWordFromSecond } from './tools.js'
@@ -180,7 +177,7 @@ function App() {
       window.removeEventListener('wheel', onWheel)
       document.body.style.overflow = '' // reset on unmount
     }
-  }, [lastY])
+  }, [lastY, mover])
 
   return (
     <div className="main">
@@ -242,9 +239,10 @@ function App() {
       <div className="page">
         <div className="about-header">{i18next.t("talk")}<Glow content={i18next.t("language")(timePassed)}/>:</div>
         <div className="icon-tray">
-          <Icon icon={githubIcon} onClick={() => window.open("https://github.com/tb-dhk")} />
-          <Icon icon={discordIcon} onClick={() => window.open("https://discord.com/users/876607304236163102")} />
-          <Icon icon={instagramIcon} onClick={() => window.open("https://www.instagram.com/tbdhk_/")} />
+          <Icon icon="fa6-brands:github" onClick={() => window.open("https://github.com/tb-dhk")} />
+          <Icon icon="fa6-brands:discord" onClick={() => window.open("https://discord.com/users/876607304236163102")} />
+          <Icon icon="fa6-brands:instagram" onClick={() => window.open("https://www.instagram.com/tbdhk_/")} />
+          <Icon icon="simple-icons:pronounsdotpage" onClick={() => window.open("https://en.pronouns.page/@tbdhk")} />
         </div>
         <div id="sike-pona">
           <link rel="stylesheet" href="https://sike.pona.la/embed.css"/>
