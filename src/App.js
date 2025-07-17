@@ -54,6 +54,7 @@ function App() {
   const [domainStartTime, setDomainStartTime] = useState(Date.now());
   const [subdomains, setSubdomains] = useState([null, null])
   const [lastY, setLastY] = useState(null)
+  const [mover, setMover] = useState(null)
 
   const languages = ["en", "tp"] 
   const isAnimating = useRef(false)
@@ -128,15 +129,26 @@ function App() {
 
   useEffect(() => {
     const onWheel = (e) => {
+      if (mover && mover !== "wheel") {
+        return
+      } else {
+        setMover("wheel")
+      }
       e.preventDefault()
       if (e.deltaY > 0) {
         scrollByPage('down')
       } else if (e.deltaY < 0) {
         scrollByPage('up')
       }
+      setMover(null)
     }
 
     function onTouchMove(e) {
+      if (mover && mover !== "touchmove") {
+        return
+      } else {
+        setMover("touchmove")
+      }
       const currentY = e.touches[0].clientY;
       if (lastY !== null) {
         const deltaY = currentY - lastY;
@@ -146,8 +158,8 @@ function App() {
           scrollByPage('up')
         }
       }
+      setMover(null)
       setLastY(currentY)
-
     }
 
     window.addEventListener('wheel', onWheel, { passive: false })
