@@ -122,6 +122,17 @@ function App() {
     const intervalId = setInterval(() => {
       setTimePassed(Date.now() - startTime);
       setScrolled(Math.round(window.scrollY / height()))
+      setSubdomains(prevSubdomains => {
+        const index = Math.round(window.scrollY / height()) - 2
+        let next = null
+        if (index >= 0 && index <= i18next.t("subdomains").length - 1) {
+          next = i18next.t("subdomains")[clamp(index, 0, i18next.t("subdomains").length - 1)].domain
+        }
+        if (prevSubdomains[1] !== next) {
+          return [prevSubdomains[1], next]
+        }
+        return prevSubdomains
+      })
     }, 16) // roughly 60fps update
 
     return () => clearInterval(intervalId);
