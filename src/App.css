@@ -183,3 +183,7 @@ body {
     font-size: clamp(30px, 9dvw, 75px) 
   }
 }
+
+#sike-pona {
+  width: 80%
+}
