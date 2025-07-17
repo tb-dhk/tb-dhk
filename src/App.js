@@ -235,7 +235,7 @@ function App() {
           <Icon icon={discordIcon} onClick={() => window.open("https://discord.com/users/876607304236163102")} />
           <Icon icon={instagramIcon} onClick={() => window.open("https://www.instagram.com/tbdhk_/")} />
         </div>
-        <div id="sike-pona" style={{width: "100%", height: "3rem"}}>
+        <div id="sike-pona">
           <link rel="stylesheet" href="https://sike.pona.la/embed.css"/>
           <span id="left">
             <a href="https://sike.pona.la/jan/jan suwa/prev.html" id="prev">← {i18next.t("sikepona")[0]}</a>
